@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["SMMA", "marketing", "surgehub"],
+  "author": "Your Name",
   "license": "ISC",
-  "description": "",
+  "description": "Surgehub Social Media Marketing Agency website backend",
   "dependencies": {
     "body-parser": "^2.2.0",
     "express": "^5.1.0"
