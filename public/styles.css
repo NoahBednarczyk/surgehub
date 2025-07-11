@@ -1,0 +1,118 @@
+/* styles.css */
+
+/* Reset and Base Styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f7f7;
+  color: #1a2b4c;
+}
+
+header {
+  background-color: #1a2b4c;
+  color: white;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #4aa3df;
+  color: white;
+}
+
+.hero button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #1a2b4c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.hero button:hover {
+  background: #122038;
+}
+
+section {
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.services .service-list,
+.testimonials .testimonial-cards,
+.services-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+form input, form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #4aa3df;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background-color: #1a2b4c;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1a2b4c;
+  color: white;
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  .services .service-list,
+  .testimonials .testimonial-cards,
+  .services-detail {
+    grid-template-columns: 1fr;
+  }
+}

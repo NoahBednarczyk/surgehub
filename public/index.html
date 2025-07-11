@@ -1,0 +1,69 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Surgehub - We Grow Brands With Social Media</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">Surgehub</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>We Grow Brands With Social Media</h1>
+  <button onclick="scrollToContact()">Book a Call</button>
+</section>
+
+<section id="about" class="about">
+  <h2>About Us</h2>
+  <p>At Surgehub, our mission is to help brands grow and thrive online through innovative social media strategies and creative content. We believe in measurable results and lasting impact.</p>
+</section>
+
+<section id="services" class="services">
+  <h2>Our Services</h2>
+  <div class="service-list">
+    <div class="service">Paid Ads</div>
+    <div class="service">Content Creation</div>
+    <div class="service">Social Media Management</div>
+    <div class="service">Strategy</div>
+  </div>
+</section>
+
+<section class="testimonials">
+  <h2>What Our Clients Say</h2>
+  <div class="testimonial-cards">
+    <div class="card">"Surgehub transformed our online presence!" – Client A</div>
+    <div class="card">"Fantastic team, great results!" – Client B</div>
+    <div class="card">"We grew 200% thanks to them!" – Client C</div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <form onsubmit="submitForm(event)">
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Message" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 Surgehub
+</footer>
+
+</body>
+</html>
