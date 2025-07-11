@@ -64,4 +64,14 @@ app.post('/contact', (req, res) => {
       </head>
       <body>
         <h1>Thanks for contacting us, ${name}!</h1>
-        <p>We’ll get
+        <p>We’ll get back to you shortly.</p>
+        <a href="/">Return Home</a>
+      </body>
+    </html>
+  `);
+});
+
+// Start server and listen on the correct port
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
